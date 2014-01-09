@@ -17,3 +17,12 @@ The module uses a simple syntax of `<menu title="...">` for the menu in general,
 As with normal Angular markup, you can also use attributes, e.g. `<div menu title="...">` and `<div menu-item route="...">`.
 
 The module interprits those tags and replaces them with a regular Bootstrap menu.
+
+### Example
+
+```html
+<menu title="Angular is awesome!">
+  <menu-item route="#/somepage">Some page</menu-item>
+  <menu-item route="#/otherpage">Other page</menu-item>
+</menu>
+```
